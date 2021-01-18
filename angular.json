@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "locadora"
+    }
+  },
+  "defaultProject": "locadora",
+  "cli": {
+    "analytics": "a81ed66d-b033-4881-9ed5-9862690416bc"
+  }
 }

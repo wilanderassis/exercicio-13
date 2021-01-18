@@ -1,0 +1,13 @@
+<nav>
+  <ul>
+    <li *ngFor="let filme of filmes">
+      <p>ID: {{filme.id}}</p>
+      <p>Nome: {{filme.nome}}</p>
+      <p>Diretor: {{filme.diretor}}</p>
+      <p>Gênero: {{filme.genero}}</p>
+      <p>Ano: {{filme.ano}}</p>
+      <p>Descrição: {{filme.descricao}}</p>
+      <img [src]="filme.poster[0].url">
+    </li>
+  </ul>
+</nav>
